@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css"; 
 
 export const metadata: Metadata = {
-  title: "Edoc Lanka",
+  title: "EDoc Lanka",
   description: "Channel Your Doctor Online in Sri Lanka | Colombo | Kandy | Galle | Jaffna",
 };
 
