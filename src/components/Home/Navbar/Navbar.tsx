@@ -41,16 +41,16 @@ const Navbar: React.FC<NavbarProps> = ({ toggleMenu }) => {
           {/* Nav Links */}
           {navItems.map((item, index) => (
             <Link
-              key={index}
-              href={`/${item.label.toLowerCase()}`}
-              className="text-black font-light text-base hover:text-blue-700  transition-all duration-300"
-
-            >
-              {item.label}
-            </Link>
+            key={index}
+            href={`/${item.label.toLowerCase()}`}
+            className="text-black font-light text-sm px-3 py-2 hover:text-blue-700 hover:bg-gray-100 transition-all duration-300 rounded-[20px]"
+          >
+            {item.label}
+          </Link>
+          
           ))}
           {/* Book Now Button */}
-          <button className="bg-blue-700 text-white px-4 py-1.5 rounded-full text-sm font-light">
+          <button className="bg-blue-700 text-white px-4 py-1.5 rounded-full text-sm font-light ">
             Sign in
           </button>
         </div>
