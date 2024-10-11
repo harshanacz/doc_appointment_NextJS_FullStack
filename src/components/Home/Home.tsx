@@ -6,7 +6,10 @@ const HomePage = () => {
   return (
     <div className='bg-white'>
       <ResponsiveNavbar/>
+      <div className=' lg:px-32 px-4'>
       <Hero/>
+      </div>
+      
     </div>
   )
 }

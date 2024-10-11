@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleMenu }) => {
   }, []);
 
   return (
-    <div className={`fixed w-full top-0 z-30 border-b ${navBg ? "bg-white shadow-md" : "bg-white"}`}>
+    <div className={`fixed w-full top-0 z-30 border-b ${navBg ? "bg-white shadow-md" : "bg-white"} lg:px-32`}>
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <Link href="/" className="text-black text-2xl font-bold">

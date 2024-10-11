@@ -6,10 +6,10 @@ import 'swiper/css/autoplay';
 
 const Carousel = () => {
   return (
-    <div className="w-full max-w-screen-lg mx-auto">
+    <div className="w-full max-w-screen-lg mx-auto">  {/* Centering with mx-auto */}
       <Swiper
         modules={[Autoplay]}
-        autoplay={{ delay: 2000 }}
+        autoplay={{ delay: 4000 }}
         loop={true}
         className="w-full"
       >
