@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import "./globals.css"; 
+import "./globals.css";
+import { reportWebVitals } from '../webVitals';
 
 export const metadata: Metadata = {
   title: "EDoc Lanka",
@@ -13,6 +14,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="custom-scrollbar">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.reportWebVitals = ${reportWebVitals.toString()}
+            `,
+          }}
+        />
+      </head>
       <body className="antialiased">
         {children}
       </body>
