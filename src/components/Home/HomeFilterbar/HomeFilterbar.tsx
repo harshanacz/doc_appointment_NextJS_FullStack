@@ -54,7 +54,7 @@ const HomeFilterbar: React.FC = () => {
 
         {/* Search Button */}
         <div >
-          <label className="block text-blue-800 mb-2 ">'</label>
+          <label className="block text-blue-800 mb-2 ">|</label>
           <div className="relative">
           <button className="w-full  px-6 py-2 bg-gray-400 text-white rounded-[20px]">
             Find Doctor
