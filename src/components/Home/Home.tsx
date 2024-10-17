@@ -3,6 +3,7 @@ import ResponsiveNavbar from './Navbar/ResponsiveNavbar'
 import Hero from './Hero/Hero'
 import HomeFilterbar from './HomeFilterbar/HomeFilterbar'
 import DoctorsList from './DoctorsList/DoctorsList'
+import Footer from './Footer/Footer'
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
         <h1 className='text-2xl font-normal mt-12 mb-8'>Popular Doctors</h1>
        <DoctorsList/>
        </div>
+       <Footer/>
     </div>
   )
 }
