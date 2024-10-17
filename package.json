@@ -19,7 +19,8 @@
     "react-spinners": "^0.14.1",
     "swiper": "^11.1.14",
     "tailwind-merge": "^2.5.3",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "web-vitals": "^4.2.3"
   },
   "devDependencies": {
     "@types/node": "^20",
